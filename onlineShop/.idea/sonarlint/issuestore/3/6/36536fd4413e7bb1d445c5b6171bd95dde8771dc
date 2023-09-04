@@ -1,0 +1,6 @@
+
+h
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(¶ù—é8œÓöû¥1
+{
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8«Óöû¥1
+>	java:S131""Add a default case to this switch.(¶ù—é8¶Óöû¥1

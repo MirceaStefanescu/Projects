@@ -1,0 +1,9 @@
+
+»
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(õÀëšþÿÿÿÿ8¥Ë¾ý¥1
+Q
+java:S1133#"5Do not forget to remove this deprecated code someday.(Š¹¿e8©Ë¾ý¥1
+C
+java:S1123#"'Add the missing @Deprecated annotation.(Š¹¿e8©Ë¾ý¥1
+M
+java:S1144#"1Remove this unused private "initProducts" method.(Š¹¿e8°Ë¾ý¥1

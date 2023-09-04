@@ -1,0 +1,8 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ùí–ı¥1
+ƒ
+java:S1488I"aImmediately return this expression instead of assigning it to the temporary variable "userInput".(ô¥§éÿÿÿÿÿ8î–ı¥1
+Œ
+java:S1488X"jImmediately return this expression instead of assigning it to the temporary variable "productToAddToCart".(Æº‡Ëıÿÿÿÿ8î–ı¥1
+{
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8«î–ı¥1
