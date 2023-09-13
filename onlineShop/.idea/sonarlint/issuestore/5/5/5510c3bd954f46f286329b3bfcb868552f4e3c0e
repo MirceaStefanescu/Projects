@@ -1,0 +1,5 @@
+
+Y
+java:S1596%">Replace "Collections.EMPTY_LIST" by "Collections.emptyList()".(÷ƒ¨öúÿÿÿÿ
+h
+java:S6204""RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(œçÖß
