@@ -76,9 +76,7 @@ public class MainMenu implements Menu {
                 }
             }
         }
-
         menuToNavigate.start();
-
     }
 
     @Override public void printMenuHeader() {

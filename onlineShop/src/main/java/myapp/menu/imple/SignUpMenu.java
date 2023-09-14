@@ -34,7 +34,6 @@ public class SignUpMenu implements Menu {
         sc = new Scanner(System.in);
         String email = sc.nextLine();
 
-        userManagementService.getUsers(); // this is needed to load all users for proper ID
         // generation
         User user = new DefaultUser(firstName, lastName, password, email);
 
@@ -52,5 +51,4 @@ public class SignUpMenu implements Menu {
     @Override public void printMenuHeader() {
         System.out.println("***** SIGN UP *****");
     }
-
 }

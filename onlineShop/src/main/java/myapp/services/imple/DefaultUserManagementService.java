@@ -33,6 +33,7 @@ public class DefaultUserManagementService implements UserManagementService {
 
     @Override public String registerUser(User user) {
         if (user == null) {
+            System.out.println("User registered");
             return NO_ERROR_MESSAGE;
         }
 
@@ -61,7 +62,7 @@ public class DefaultUserManagementService implements UserManagementService {
 
     @Override public List<User> getUsers() {
         List<User> users = defaultUserStoringService.loadUsers();
-        DefaultUser.setCounter(users.stream().mapToInt(user -> user.getId()).max().getAsInt());
+        DefaultUser.setCounter(users.stream().mapToInt(User::getId).max().getAsInt());
         return users;
     }
 
@@ -72,9 +73,5 @@ public class DefaultUserManagementService implements UserManagementService {
             }
         }
         return null;
-    }
-
-    @Override public void resetPasswordForUser(User user) {
-
     }
 }

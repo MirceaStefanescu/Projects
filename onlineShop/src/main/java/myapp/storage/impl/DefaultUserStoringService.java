@@ -15,10 +15,8 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class DefaultUserStoringService implements UserStoringService {
+    private static final String USER_INFO_STORAGE = "src/main/resources/users.csv";
 
-    private static final String USER_INFO_STORAGE = "users.csv";
-    private static final String CURRENT_TASK_RESOURCE_FOLDER = "finaltask";
-    private static final String RESOURCES_FOLDER = "resources";
     private static final int USER_EMAIL_INDEX = 4;
     private static final int USER_PASSWORD_INDEX = 3;
     private static final int USER_LASTNAME_INDEX = 2;
@@ -36,10 +34,10 @@ public class DefaultUserStoringService implements UserStoringService {
 
     @Override public void saveUser(User user) {
         try {
-            Files.writeString(
-                    Paths.get(RESOURCES_FOLDER, CURRENT_TASK_RESOURCE_FOLDER, USER_INFO_STORAGE),
-                    System.lineSeparator() + convertToStorableString(user), StandardCharsets.UTF_8,
-                    StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+            Files.writeString(Paths.get(USER_INFO_STORAGE),
+                              System.lineSeparator() + convertToStorableString(user),
+                              StandardCharsets.UTF_8, StandardOpenOption.CREATE,
+                              StandardOpenOption.APPEND);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -51,8 +49,8 @@ public class DefaultUserStoringService implements UserStoringService {
     }
 
     @Override public List<User> loadUsers() {
-        try (var stream = Files.lines(
-                Paths.get(RESOURCES_FOLDER, CURRENT_TASK_RESOURCE_FOLDER, USER_INFO_STORAGE))) {
+
+        try (var stream = Files.lines(Paths.get(USER_INFO_STORAGE))) {
             return stream.filter(Objects::nonNull).filter(line -> !line.isEmpty()).map(line -> {
                 String[] userElements = line.split(",");
                 return new DefaultUser(Integer.valueOf(userElements[USER_ID_INDEX]),
@@ -66,5 +64,4 @@ public class DefaultUserStoringService implements UserStoringService {
             return Collections.EMPTY_LIST;
         }
     }
-
 }

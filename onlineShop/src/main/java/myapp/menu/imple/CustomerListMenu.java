@@ -22,10 +22,11 @@ public class CustomerListMenu implements Menu {
         printMenuHeader();
         List<User> users = userManagementService.getUsers();
 
-        if (users == null || users.size() == 0) {
-            System.out.println("Unfortunately, there are no customers.");
+        if (users == null || users.size() <= 1) {
+            System.out.println("Unfortunately, there are no additional customers.");
         } else {
-            for (User user : users) {
+            for (int i = 1; i < users.size(); i++) {
+                User user = users.get(i);
                 System.out.println(user);
             }
         }

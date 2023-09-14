@@ -1,7 +1,6 @@
 package myapp.menu;
 
 public interface Menu {
-
     /*
     start(): This method is responsible for starting or initiating the menu functionality. The
     implementation details of this method will be defined by the class that implements this
