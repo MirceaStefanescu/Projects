@@ -8,56 +8,80 @@ import java.sql.ResultSet;
 
 public class ReturnBookDao {
     public static int delete(String bookcallno, int studentid) {
-        int status = 0;
-        try {
-            Connection con = DB.getConnection();
+        int status = 0; // Initialize status to indicate failure
 
-            status = updateBook(bookcallno);
+        if (bookcallno == null || bookcallno.isEmpty() || studentid <= 0) {
+            return -1; // Invalid input, return a custom status to indicate failure
+        }
 
-            if (status > 0) {
+        try (Connection con = DB.getConnection()) {
+            if (con != null) {
                 PreparedStatement ps = con.prepareStatement(
-                        "delete from issuebooks where bookcallno=? and studentid=?");
+                        "DELETE FROM issuebooks WHERE bookcallno=? AND studentid=?");
+
+                // Update the book status
+                int updateStatus = updateBook(bookcallno);
+                if (updateStatus <= 0) {
+                    // Return failure if book update fails
+                    return status;
+                }
+
+                // Set the values for the prepared statement
                 ps.setString(1, bookcallno);
                 ps.setInt(2, studentid);
-                status = ps.executeUpdate();
-            }
 
-            con.close();
+                // Execute the delete query
+                status = ps.executeUpdate();
+            } else {
+                System.out.println("Connection is null. Cannot execute the query.");
+            }
         } catch (Exception e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
+
         return status;
     }
 
     public static int updateBook(String bookcallno) {
-        int status = 0;
+        int status = 0; // Initialize status to indicate failure
         int quantity = 0;
         int issued = 0;
-        try {
-            Connection con = DB.getConnection();
 
-            PreparedStatement ps =
-                    con.prepareStatement("select quantity,issued from books where callno=?");
-            ps.setString(1, bookcallno);
-            ResultSet rs = ps.executeQuery();
-            if (rs.next()) {
-                quantity = rs.getInt("quantity");
-                issued = rs.getInt("issued");
+        try (Connection con = DB.getConnection()) {
+            if (con != null) {
+                PreparedStatement selectPs =
+                        con.prepareStatement("SELECT quantity, issued FROM books WHERE callno=?");
+                PreparedStatement updatePs = con.prepareStatement(
+                        "UPDATE books SET quantity=?, issued=? WHERE callno=?");
+
+                // Set the value for the select query prepared statement
+                selectPs.setString(1, bookcallno);
+
+                // Execute the select query
+                try (ResultSet rs = selectPs.executeQuery()) {
+                    if (rs.next()) {
+                        quantity = rs.getInt("quantity");
+                        issued = rs.getInt("issued");
+                    }
+                }
+
+                if (issued > 0) {
+                    // Set the values for the update query prepared statement
+                    updatePs.setInt(1, quantity + 1);
+                    updatePs.setInt(2, issued - 1);
+                    updatePs.setString(3, bookcallno);
+
+                    // Execute the update query
+                    status = updatePs.executeUpdate();
+                }
+
+            } else {
+                System.out.println("Connection is null. Cannot execute the query.");
             }
-
-            if (issued > 0) {
-                PreparedStatement ps2 =
-                        con.prepareStatement("update books set quantity=?,issued=? where callno=?");
-                ps2.setInt(1, quantity + 1);
-                ps2.setInt(2, issued - 1);
-                ps2.setString(3, bookcallno);
-
-                status = ps2.executeUpdate();
-            }
-            con.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         return status;
     }
 }
