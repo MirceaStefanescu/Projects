@@ -10,6 +10,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/*
+This class is a Java Swing-based GUI application for the librarian login form. It extends the
+JFrame class to create a window for the login form.
+ */
 public class LibrarianLogin extends JFrame {
     static LibrarianLogin frame;
     private final JTextField textField;
@@ -35,6 +39,13 @@ public class LibrarianLogin extends JFrame {
         textField.setColumns(10);
 
         JButton btnLogin = new JButton("Login");
+
+        /*
+        When the login button is clicked, an action listener is triggered. It retrieves the
+        values entered in the name and password fields, and validates them using the LibrarianDao
+        .validate() method. If the validation is successful, it opens the LibrarianSuccess window
+         and closes the current login window. Otherwise, it displays an error message dialog.
+         */
         btnLogin.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String name = textField.getText();

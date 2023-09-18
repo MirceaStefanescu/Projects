@@ -9,6 +9,14 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
+
+/*
+This Java class represents a form for adding books to a library management system. It extends the
+ JFrame class, which provides a window for displaying the form.
+ The class includes several instance variables representing the different components of the form,
+  such as text fields for entering the book's call number, name, author, publisher, and quantity.
+   These text fields are created using the JTextField class.
+ */
 public class BooksForm extends JFrame {
     static BooksForm frame;
     private final JTextField textField;
@@ -54,6 +62,11 @@ public class BooksForm extends JFrame {
         textField_4 = new JTextField();
         textField_4.setColumns(10);
 
+        /*
+        There are two buttons included in the form. The "Add Books" button (JButton) is used to
+        trigger an action when clicked, which involves retrieving the values entered in the text
+        fields and saving them to a book repository using the BookDao class.
+         */
         JButton btnAddBooks = new JButton("Add Books");
         btnAddBooks.addActionListener(e -> {
             String callno = textField.getText();
@@ -63,6 +76,11 @@ public class BooksForm extends JFrame {
             String squantity = textField_4.getText();
             int quantity = Integer.parseInt(squantity);
             int i = BookDao.save(callno, name, author, publisher, quantity);
+
+            /*
+            If the save operation is successful, a success message is displayed, and the form is
+            closed. Otherwise, an error message is shown
+             */
             if (i > 0) {
                 JOptionPane.showMessageDialog(BooksForm.this, "Books added successfully!");
                 LibrarianSuccess.main(new String[]{});
@@ -73,7 +91,15 @@ public class BooksForm extends JFrame {
             }
         });
 
+        /*
+        The second button, "Back", is used to navigate back to the previous screen.
+         */
         JButton btnBack = new JButton("Back");
+
+        /*
+        The layout of the form is managed using the GroupLayout class, which allows arranging the
+         components in a specific way.
+         */
         GroupLayout gl_contentPane = new GroupLayout(contentPane);
         gl_contentPane.setHorizontalGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING)
                                                         .addGroup(

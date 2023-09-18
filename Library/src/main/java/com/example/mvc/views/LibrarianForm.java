@@ -9,6 +9,12 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
+
+/*
+It extends the JFrame class, which is a top-level container that represents a window with a title
+ bar and borders. This class is responsible for creating a graphical user interface (GUI) for
+ adding a librarian.
+ */
 public class LibrarianForm extends JFrame {
     static LibrarianForm frame;
     private final JTextField textField;
@@ -19,9 +25,16 @@ public class LibrarianForm extends JFrame {
     private final JPasswordField passwordField;
 
 
+    /*
+    The constructor method LibrarianForm() initializes the frame and sets its size and layout.
+     */
     public LibrarianForm() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(100, 100, 450, 450);
+
+        /*
+        It creates a panel (contentPane) and sets it as the content pane of the frame.
+         */
         JPanel contentPane = new JPanel();
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
         setContentPane(contentPane);
@@ -59,6 +72,10 @@ public class LibrarianForm extends JFrame {
 
         passwordField = new JPasswordField();
 
+        /*
+        It adds event listeners to the "Add Librarian" button and the "Back" button to handle
+        user actions.
+         */
         JButton btnNewButton = new JButton("Add Librarian");
         btnNewButton.addActionListener(e -> {
             String name = textField.getText();
@@ -85,6 +102,11 @@ public class LibrarianForm extends JFrame {
             AdminSuccess.main(new String[]{});
             frame.dispose();
         });
+
+        /*
+        It creates and configures labels, text fields, password field, buttons, and adds them to
+        the content pane using a layout manager (GroupLayout).
+         */
         GroupLayout gl_contentPane = new GroupLayout(contentPane);
         gl_contentPane.setHorizontalGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING)
                                                         .addGroup(

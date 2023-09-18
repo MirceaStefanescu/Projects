@@ -9,6 +9,12 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
+/*
+This class represents a form for issuing a book in a library management system. It is a part of
+the MVC (Model-View-Controller) architecture.
+The class extends the JFrame class, which provides a top-level container for the form. It
+contains several components such as labels, text fields, and buttons for input and interaction.
+ */
 public class IssueBookForm extends JFrame {
     static IssueBookForm frame;
     private final JTextField textField_1;
@@ -51,14 +57,18 @@ public class IssueBookForm extends JFrame {
         JButton btnIssueBook = new JButton("Issue Book");
         btnIssueBook.addActionListener(e -> {
 
-            String bookcallno = textField_1.getText();
-            int studentid = Integer.parseInt(textField_2.getText());
-            String studentname = textField_3.getText();
-            String studentcontact = textField_4.getText();
+            String bookCallNo = textField_1.getText();
+            int studentId = Integer.parseInt(textField_2.getText());
+            String studentName = textField_3.getText();
+            String studentContact = textField_4.getText();
 
-            if (IssueBookDao.checkBook(bookcallno)) {
+            if (IssueBookDao.checkBook(bookCallNo)) {
 
-                int i = IssueBookDao.save(bookcallno, studentid, studentname, studentcontact);
+                int i = IssueBookDao.save(bookCallNo, studentId, studentName, studentContact);
+
+                /*
+                It displays success or error messages using the JOptionPane class.
+                 */
                 if (i > 0) {
                     JOptionPane.showMessageDialog(IssueBookForm.this, "Book issued successfully!");
                     LibrarianSuccess.main(new String[]{});

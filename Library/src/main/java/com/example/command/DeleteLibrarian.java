@@ -20,13 +20,14 @@ public class DeleteLibrarian extends JFrame {
      */
     private final JTextField textField;
 
+    private final JButton btnDelete;
 
     /*
-    This method is a constructor for a class called DeleteLibrarian. It sets up the graphical
-    user interface (GUI) for deleting a librarian record.
-    This method creates a window with a text field to enter an ID, a "Delete" button to trigger
-    the deletion process, and a "Back" button to navigate back to the previous screen.
-     */
+        This method is a constructor for a class called DeleteLibrarian. It sets up the graphical
+        user interface (GUI) for deleting a librarian record.
+        This method creates a window with a text field to enter an ID, a "Delete" button to trigger
+        the deletion process, and a "Back" button to navigate back to the previous screen.
+         */
     public DeleteLibrarian() {
         /*
         Sets the default close operation for the window to EXIT_ON_CLOSE.
@@ -57,7 +58,7 @@ public class DeleteLibrarian extends JFrame {
         /*
          A button labeled "Delete" that triggers the deletion process when clicked.
          */
-        JButton btnDelete = new JButton("Delete");
+        btnDelete = new JButton("Delete");
         btnDelete.addActionListener(e -> {
             String sid = textField.getText();
             if (sid == null || sid.trim().equals("")) {
@@ -148,10 +149,14 @@ public class DeleteLibrarian extends JFrame {
         contentPane.setLayout(gl_contentPane);
     }
 
+    public static DeleteLibrarian getFrame() {
+        return frame;
+    }
+
     /*
-    The main method creates an instance of DeleteLibrarian and sets it to be visible when the
-    program is executed.
-     */
+        The main method creates an instance of DeleteLibrarian and sets it to be visible when the
+        program is executed.
+         */
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
             try {
@@ -161,5 +166,25 @@ public class DeleteLibrarian extends JFrame {
                 e.printStackTrace();
             }
         });
+    }
+
+    public JButton getBtnDelete() {
+        return btnDelete;
+    }
+
+    public void validateId() {
+        String sid = textField.getText();
+        if (sid == null || sid.trim().equals("")) {
+            JOptionPane.showMessageDialog(DeleteLibrarian.this, "Id can't be blank");
+        }
+    }
+
+    public JTextField getTextField() {
+        return textField;
+    }
+
+    public LibrarianDao getLibrarianDao() {
+        // Return an instance of the LibrarianDao class
+        return new LibrarianDao();
     }
 }

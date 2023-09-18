@@ -9,11 +9,27 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
+
+/*
+This class represents a Java Swing GUI application for a library management system. It extends
+the JFrame class, which is a top-level container that represents the main window of the application.
+ */
 public class Library extends JFrame {
+
+    /*
+    The frame object is used to dispose of the current frame after login.
+     */
     static Library frame;
 
-
+    /*
+    The class contains a constructor Library() that sets up the main frame of the application. It
+     sets the default close operation, bounds, and creates a content pane for the frame. The
+     content pane is a panel that holds the user interface components.
+     */
     public Library() {
+        /*
+        The UI components include a label (JLabel) with the text "Library Management"
+         */
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(100, 100, 450, 300);
         JPanel contentPane = new JPanel();
@@ -24,6 +40,11 @@ public class Library extends JFrame {
         lblLibraryManagement.setFont(new Font("Tahoma", Font.PLAIN, 18));
         lblLibraryManagement.setForeground(Color.GRAY);
 
+        /*
+        Two buttons (JButton) for admin login and librarian login, and a layout manager
+        The buttons have event listeners attached to them, so when clicked, they trigger the
+        corresponding login functionality
+         */
         JButton btnAdminLogin = new JButton("Admin Login");
         btnAdminLogin.addActionListener(e -> {
             AdminLogin.main(new String[]{});
@@ -34,6 +55,10 @@ public class Library extends JFrame {
         JButton btnLibrarianLogin = new JButton("Librarian Login");
         btnLibrarianLogin.addActionListener(arg0 -> LibrarianLogin.main(new String[]{}));
         btnLibrarianLogin.setFont(new Font("Tahoma", Font.PLAIN, 15));
+
+        /*
+        (GroupLayout) that defines the arrangement of these components within the content pane.
+         */
         GroupLayout gl_contentPane = new GroupLayout(contentPane);
         gl_contentPane.setHorizontalGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
                                                         .addGroup(
@@ -91,7 +116,10 @@ public class Library extends JFrame {
         contentPane.setLayout(gl_contentPane);
     }
 
-
+    /*
+    The main() method is the entry point of the application. It invokes the Library constructor
+    within the event dispatch thread to ensure proper GUI initialization and interaction.
+     */
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
             try {

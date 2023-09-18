@@ -9,6 +9,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
+/*
+This class is a Java Swing-based controller for an admin login form. It extends the JFrame class
+and provides a graphical user interface (GUI) for the admin login functionality.
+ */
 public class AdminLogin extends JFrame {
     static AdminLogin frame;
     private final JTextField textField;
@@ -34,6 +39,12 @@ public class AdminLogin extends JFrame {
         textField.setColumns(10);
 
         JButton btnLogin = new JButton("Login");
+
+        /*
+        Defining an action listener for the "Login" button, which checks the entered name and
+        password against predefined values. If the values match, it opens the AdminSuccess class
+        and disposes of the current frame; otherwise, it displays an error message.
+         */
         btnLogin.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String name = textField.getText();
@@ -133,7 +144,10 @@ public class AdminLogin extends JFrame {
         contentPane.setLayout(gl_contentPane);
     }
 
-
+    /*
+    Defining the main method that creates an instance of AdminLogin and sets it visible on the
+    Event Dispatch Thread
+     */
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
             try {

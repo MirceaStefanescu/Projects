@@ -4,86 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f27447-0e35-4edf-994f-342f7bd83437" name="Changes" comment="Library Management System in Java Swing">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03765eb4faa3086911f338601bf0e7239582d8e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04dd5f1c4d9edeefac1957af0fce4b08384adc49" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07ac826adc1c7454a7b2e2c62855dc29d20b41ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c039b7ddc14c04becd0e05902b55e36f05c0f24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f26d28ec9d5376fdb08fe5fda7d1ad00c1f5acc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10a726632a6eb50eb8cd8950ae2b1e3c0b53e56c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/321e054810be8f522db05997edefd31b093d819a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3be131a86fc13c1e9571fbd5b469b8a22090a916" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3eed70a952d6ca0858f209cfbe1ba8e3695d9e30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/476dbf24f33bfe5f1e178fd35b454f16df60a2c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54a7be8c9c280492ead36f8d3b7f18b93cf2f651" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59effe52cae09b84b96cf99907a3eb1918395378" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f4e6969a9c9329ae489957b464b9111ef15088f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a84d479e13b08d723274f5e7cfc249507531d26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/742d43bedf105479d343b1ab3647748f767600a4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/8469dff58ef54fc13246d8b9ebcf6ab5b6681e2d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cc87057f0c950549bbf1ee5062fd96da2a74c27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a344cb4d3e192d7aed4232c90e157cbf4a7184e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6d15b3c8ad4894a39c1f21257510fbe3b813f37" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7ba48a0f854c742d23ff72befea5058bb34ddfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5fc14c56de71c4ed58bd584df1b01c11a5491c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebb6e3fa27603182e61ab49f0629183e7849d4a6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/3/03765eb4faa3086911f338601bf0e7239582d8e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/4/04dd5f1c4d9edeefac1957af0fce4b08384adc49" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/7/07ac826adc1c7454a7b2e2c62855dc29d20b41ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/c/0c039b7ddc14c04becd0e05902b55e36f05c0f24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f26d28ec9d5376fdb08fe5fda7d1ad00c1f5acc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/0/10a726632a6eb50eb8cd8950ae2b1e3c0b53e56c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/321e054810be8f522db05997edefd31b093d819a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3be131a86fc13c1e9571fbd5b469b8a22090a916" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/e/3eed70a952d6ca0858f209cfbe1ba8e3695d9e30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/7/476dbf24f33bfe5f1e178fd35b454f16df60a2c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/4/54a7be8c9c280492ead36f8d3b7f18b93cf2f651" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/9/59effe52cae09b84b96cf99907a3eb1918395378" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/f/5f4e6969a9c9329ae489957b464b9111ef15088f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6a84d479e13b08d723274f5e7cfc249507531d26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/4/742d43bedf105479d343b1ab3647748f767600a4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/4/8469dff58ef54fc13246d8b9ebcf6ab5b6681e2d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9cc87057f0c950549bbf1ee5062fd96da2a74c27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/3/a344cb4d3e192d7aed4232c90e157cbf4a7184e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/6/b6d15b3c8ad4894a39c1f21257510fbe3b813f37" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/7/b7ba48a0f854c742d23ff72befea5058bb34ddfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e5fc14c56de71c4ed58bd584df1b01c11a5491c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/ebb6e3fa27603182e61ab49f0629183e7849d4a6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/singleton/DB.java" afterDir="false" />
+    <list default="true" id="61f27447-0e35-4edf-994f-342f7bd83437" name="Changes" comment="some comments and design patterns applied">
+      <change afterPath="$PROJECT_DIR$/src/test/java/uniteTests/command/DeleteLibrarianTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uniteTests/db/TestDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03765eb4faa3086911f338601bf0e7239582d8e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04dd5f1c4d9edeefac1957af0fce4b08384adc49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07ac826adc1c7454a7b2e2c62855dc29d20b41ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c039b7ddc14c04becd0e05902b55e36f05c0f24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f26d28ec9d5376fdb08fe5fda7d1ad00c1f5acc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/321e054810be8f522db05997edefd31b093d819a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3be131a86fc13c1e9571fbd5b469b8a22090a916" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3eed70a952d6ca0858f209cfbe1ba8e3695d9e30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/476dbf24f33bfe5f1e178fd35b454f16df60a2c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54a7be8c9c280492ead36f8d3b7f18b93cf2f651" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59effe52cae09b84b96cf99907a3eb1918395378" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f4e6969a9c9329ae489957b464b9111ef15088f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a84d479e13b08d723274f5e7cfc249507531d26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/742d43bedf105479d343b1ab3647748f767600a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/8469dff58ef54fc13246d8b9ebcf6ab5b6681e2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cc87057f0c950549bbf1ee5062fd96da2a74c27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a344cb4d3e192d7aed4232c90e157cbf4a7184e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6d15b3c8ad4894a39c1f21257510fbe3b813f37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7ba48a0f854c742d23ff72befea5058bb34ddfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5fc14c56de71c4ed58bd584df1b01c11a5491c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebb6e3fa27603182e61ab49f0629183e7849d4a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/3/03765eb4faa3086911f338601bf0e7239582d8e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/4/04dd5f1c4d9edeefac1957af0fce4b08384adc49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/7/07ac826adc1c7454a7b2e2c62855dc29d20b41ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/c/0c039b7ddc14c04becd0e05902b55e36f05c0f24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f26d28ec9d5376fdb08fe5fda7d1ad00c1f5acc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/321e054810be8f522db05997edefd31b093d819a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3be131a86fc13c1e9571fbd5b469b8a22090a916" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/e/3eed70a952d6ca0858f209cfbe1ba8e3695d9e30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/7/476dbf24f33bfe5f1e178fd35b454f16df60a2c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/4/54a7be8c9c280492ead36f8d3b7f18b93cf2f651" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/9/59effe52cae09b84b96cf99907a3eb1918395378" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/f/5f4e6969a9c9329ae489957b464b9111ef15088f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6a84d479e13b08d723274f5e7cfc249507531d26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/4/742d43bedf105479d343b1ab3647748f767600a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/4/8469dff58ef54fc13246d8b9ebcf6ab5b6681e2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9cc87057f0c950549bbf1ee5062fd96da2a74c27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/3/a344cb4d3e192d7aed4232c90e157cbf4a7184e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/6/b6d15b3c8ad4894a39c1f21257510fbe3b813f37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/7/b7ba48a0f854c742d23ff72befea5058bb34ddfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e5fc14c56de71c4ed58bd584df1b01c11a5491c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/ebb6e3fa27603182e61ab49f0629183e7849d4a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/controller/AdminLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AdminSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/factory/AdminSuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/BooksForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/BooksForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DeleteLibrarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/command/DeleteLibrarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/IssueBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/IssueBookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/IssueBookForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/IssueBookForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/LibrarianDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/LibrarianDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/LibrarianForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/LibrarianForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/LibrarianLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/controller/LibrarianLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/LibrarianSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/factory/LibrarianSuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/model/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ReturnBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/command/ReturnBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ReturnBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/ReturnBookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ViewBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/ViewBooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ViewIssuedBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/ViewIssuedBooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ViewLibrarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/ViewLibrarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/books.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sql/books.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/issuebooks.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sql/issuebooks.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/librarian.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sql/librarian.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/command/DeleteLibrarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/command/DeleteLibrarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/controller/AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/controller/AdminLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/controller/LibrarianLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/controller/LibrarianLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/BooksForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/BooksForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/IssueBookForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/IssueBookForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/LibrarianForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/LibrarianForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/ViewBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/ViewBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/ViewIssuedBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/views/ViewIssuedBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/IssueBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/IssueBookDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,13 +74,14 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -114,6 +96,15 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -133,17 +124,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "code.cleanup.on.save": "true",
     "last_opened_file_path": "D:/Mircea/Udemy/Java/jdbc",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Errors",
     "settings.editor.splitter.proportion": "0.29503107"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="uniteTests.command" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Mircea\Udemy\Projects\Repository\Projects\Library\src\main\java\com\example\sql" />
       <recent name="D:\Mircea\Udemy\Projects\Repository\Projects\Library\src\main\java\com\example" />
@@ -152,13 +145,13 @@
       <recent name="D:\Mircea\Udemy\Projects\Repository\Projects\Library\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibrarianForm">
-    <configuration name="LibrarianForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mvc.views.LibrarianForm" />
+  <component name="RunManager" selected="JUnit.All in Library">
+    <configuration name="LibrarianSuccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.factory.LibrarianSuccess" />
       <module name="Library" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.singleton.*" />
+          <option name="PATTERN" value="com.example.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,51 +159,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibrarianLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mvc.controller.LibrarianLogin" />
+    <configuration name="All in Library" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Library" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mvc.model.Library" />
+    <configuration name="BookDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Library" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.singleton.*" />
+          <option name="PATTERN" value="uniteTests.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.example.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="uniteTests.repository" />
+      <option name="MAIN_CLASS_NAME" value="uniteTests.repository.BookDaoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViewLibrarian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mvc.views.ViewLibrarian" />
+    <configuration name="BookDaoTest.testSave_ValidInput_ReturnsNonZeroStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Library" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.singleton.*" />
+          <option name="PATTERN" value="uniteTests.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="uniteTests.repository" />
+      <option name="MAIN_CLASS_NAME" value="uniteTests.repository.BookDaoTest" />
+      <option name="METHOD_NAME" value="testSave_ValidInput_ReturnsNonZeroStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteLibrarianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uniteTests.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uniteTests.command" />
+      <option name="MAIN_CLASS_NAME" value="uniteTests.command.DeleteLibrarianTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LibrarianForm" />
-        <item itemvalue="Application.ViewLibrarian" />
-        <item itemvalue="Application.LibrarianLogin" />
-        <item itemvalue="Application.Library" />
+        <item itemvalue="JUnit.All in Library" />
+        <item itemvalue="Application.LibrarianSuccess" />
+        <item itemvalue="JUnit.BookDaoTest" />
+        <item itemvalue="JUnit.BookDaoTest.testSave_ValidInput_ReturnsNonZeroStatus" />
+        <item itemvalue="JUnit.DeleteLibrarianTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694855367195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some comments and design patterns applied">
+      <created>1694938467084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694938467084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,10 +272,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Library Management System in Java Swing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Library Management System in Java Swing" />
+    <MESSAGE value="some comments and design patterns applied" />
+    <option name="LAST_COMMIT_MESSAGE" value="some comments and design patterns applied" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Library$DBTest_testGetConnection.ic" NAME="DBTest.testGetConnection Coverage Results" MODIFIED="1695019378942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uniteTests.db.*</FILTER>
+      <FILTER>com.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Library$TestDB.ic" NAME="TestDB Coverage Results" MODIFIED="1695023570124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uniteTests.db.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Library$DeleteLibrarianTest_testDeleteLibrarianTextField.ic" NAME="DeleteLibrarianTest.testDeleteLibrarianTextField Coverage Results" MODIFIED="1695024791870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uniteTests.command.*</FILTER>
+      <FILTER>com.example.command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Library$DeleteLibrarianTest.ic" NAME="DeleteLibrarianTest Coverage Results" MODIFIED="1695033203874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uniteTests.command.*</FILTER>
+      <FILTER>com.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Library$BookDaoTest.ic" NAME="BookDaoTest Coverage Results" MODIFIED="1695038345064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uniteTests.repository.*</FILTER>
+      <FILTER>com.example.repository.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Library$DeleteLibrarianTest_testDeleteLibrarianIdValidation.ic" NAME="DeleteLibrarianTest.testDeleteLibrarianIdValidation Coverage Results" MODIFIED="1695026415568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Library$DBTest_testGetConnectionException.ic" NAME="DBTest.testGetConnectionException Coverage Results" MODIFIED="1695020818493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uniteTests.db.*</FILTER>
+    </SUITE>
   </component>
 </project>
