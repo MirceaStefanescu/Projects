@@ -17,13 +17,14 @@
 
 	<properties>
 		<java.version>13</java.version>
+		<okta-spring-boot-starter.version>3.0.3</okta-spring-boot-starter.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.okta.spring</groupId>
 			<artifactId>okta-spring-boot-starter</artifactId>
-			<version>2.1.6</version>
+			<version>${okta-spring-boot-starter.version}</version>
 		</dependency>
 
 		<dependency>

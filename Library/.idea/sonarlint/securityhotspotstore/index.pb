@@ -79,3 +79,7 @@ W
 'src/test/java/uniteTests/db/TestDB.java,b\3\b353a87829db78994bb087309fa71f75b0896e0f
 i
 9src/test/java/uniteTests/command/DeleteLibrarianTest.java,4\0\403340adea9ac35d53f892d03a8a0ab9204f2120
+d
+4src/test/java/uniteTests/repository/BookDaoTest.java,c\0\c0a5dc369d68d519911fde825282dd549b360c1b
+i
+9src/test/java/uniteTests/repository/LibrarianDaoTest.java,f\9\f954ae8261708353383196a2977bce9731bfd2a0
