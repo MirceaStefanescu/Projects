@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anonymous User Form</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="number"],
+        select {
+            width: 450px;
+        }
+
+        input[type="submit"] {
+            width: 80px;
+            background-color: blue;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Anonymous User Form</h1>
+<form action="submitForm" method="post">
+    <label for="username">Username:</label>
+    <input id="username" name="username" required type="text">
+
+    <label for="password">Password:</label>
+    <input id="password" name="password" required type="password">
+
+    <label for="firstName">First Name:</label>
+    <input id="firstName" name="firstName" required type="text">
+
+    <label for="lastName">Last Name:</label>
+    <input id="lastName" name="lastName" required type="text">
+
+    <label for="address">Address:</label>
+    <input id="address" name="address" required type="text">
+
+    <label for="city">City:</label>
+    <input id="city" name="city" required type="text">
+
+    <label for="province">Province:</label>
+    <input id="province" name="province" required type="text">
+
+    <label for="postalCode">Postal Code:</label>
+    <input id="postalCode" name="postalCode" required type="number">
+
+    <label for="age">Age:</label>
+    <input id="age" max="100" min="1" name="age" required type="number">
+
+    <label for="sex">Gender:</label>
+    <select id="sex" name="sex" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+
+<<!-- Success message -->
+<p id="successMessage" style="display: none; color: green;">User saved successfully!</p>
+
+<script>
+    const form = document.querySelector('form');
+    const successMessage = document.getElementById('successMessage');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Perform your saving logic here
+
+        // Display success message
+        successMessage.style.display = 'block';
+    });
+
+
+</script>
+
+</body>
+</html>

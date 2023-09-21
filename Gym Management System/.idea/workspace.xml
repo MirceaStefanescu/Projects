@@ -4,49 +4,100 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48b17432-d182-402e-8de9-5bee5de68083" name="Changes" comment="Gym Management System">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04a56619303eaa8624f224d6562a2928fbbbd44c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/064090688eac5d432914fe6a7a1bde39c2aab6b8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a2e76c305327076bc7db7637b42c6302f32f9fb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b5c047e04fffccdfb6b555134f82c41fe874874" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f5e1df13e820ffbd241e9814047807f531ac2e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/427c5ab018245ff7632f62b363c41183f1febf1b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51a1a901687af2627ff8e035eba6afac8541b228" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6adb5a3a8a83923294a008a6414b35a12a109d0a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80c4984d3560e73fcadaa6bd93010f235dc5d730" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/823c0fd5d6eec224954d94c5c5828894087563ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f76eeb67acfad6470716bdadf09c00475f18dfa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94e740553dd9828ba6fb0a8eea2211c7f8c9314d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a0ea17b75af06ad30347e04b2491a7a4453cb072" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afe519d8b8a7ff848259722587a7bc7c147de74d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce94e08e1343fb343f8f4406143b2116266e01e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2dc54ee1b9e5d8ad48bc05ab8e63c68a1bc7efe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0ba21739934cd29452ea78d8c8d13758a26ce26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeafc215208fa22f07a26cdcf2e4b385b5f224c4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd897d98a928f643cf98725395389411711c8af2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/4/04a56619303eaa8624f224d6562a2928fbbbd44c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/6/064090688eac5d432914fe6a7a1bde39c2aab6b8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0a2e76c305327076bc7db7637b42c6302f32f9fb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1b5c047e04fffccdfb6b555134f82c41fe874874" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/f/2f5e1df13e820ffbd241e9814047807f531ac2e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/427c5ab018245ff7632f62b363c41183f1febf1b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/1/51a1a901687af2627ff8e035eba6afac8541b228" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6adb5a3a8a83923294a008a6414b35a12a109d0a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/0/80c4984d3560e73fcadaa6bd93010f235dc5d730" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/823c0fd5d6eec224954d94c5c5828894087563ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f76eeb67acfad6470716bdadf09c00475f18dfa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/4/94e740553dd9828ba6fb0a8eea2211c7f8c9314d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/0/a0ea17b75af06ad30347e04b2491a7a4453cb072" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/afe519d8b8a7ff848259722587a7bc7c147de74d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/e/ce94e08e1343fb343f8f4406143b2116266e01e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2dc54ee1b9e5d8ad48bc05ab8e63c68a1bc7efe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/0/e0ba21739934cd29452ea78d8c8d13758a26ce26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/eeafc215208fa22f07a26cdcf2e4b385b5f224c4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/d/fd897d98a928f643cf98725395389411711c8af2" afterDir="false" />
+    <list default="true" id="48b17432-d182-402e-8de9-5bee5de68083" name="Changes" comment="refactoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/userController/AnonymousUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/ActorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/Aliases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/AnonymousUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/ContactPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/view/registrationView/anonymousUserForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/persistance/TestConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/persistance/dao/AnonymousUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04a56619303eaa8624f224d6562a2928fbbbd44c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/064090688eac5d432914fe6a7a1bde39c2aab6b8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a2e76c305327076bc7db7637b42c6302f32f9fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b5c047e04fffccdfb6b555134f82c41fe874874" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f5e1df13e820ffbd241e9814047807f531ac2e7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/427c5ab018245ff7632f62b363c41183f1febf1b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51a1a901687af2627ff8e035eba6afac8541b228" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6adb5a3a8a83923294a008a6414b35a12a109d0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80c4984d3560e73fcadaa6bd93010f235dc5d730" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/823c0fd5d6eec224954d94c5c5828894087563ff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f76eeb67acfad6470716bdadf09c00475f18dfa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94e740553dd9828ba6fb0a8eea2211c7f8c9314d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a0ea17b75af06ad30347e04b2491a7a4453cb072" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a86e5c3d5ae8b9d9960ded355abd3cf4562a70d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afe519d8b8a7ff848259722587a7bc7c147de74d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce94e08e1343fb343f8f4406143b2116266e01e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2dc54ee1b9e5d8ad48bc05ab8e63c68a1bc7efe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeafc215208fa22f07a26cdcf2e4b385b5f224c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd897d98a928f643cf98725395389411711c8af2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/4/04a56619303eaa8624f224d6562a2928fbbbd44c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/6/064090688eac5d432914fe6a7a1bde39c2aab6b8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0a2e76c305327076bc7db7637b42c6302f32f9fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1b5c047e04fffccdfb6b555134f82c41fe874874" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/f/2f5e1df13e820ffbd241e9814047807f531ac2e7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/427c5ab018245ff7632f62b363c41183f1febf1b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/1/51a1a901687af2627ff8e035eba6afac8541b228" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6adb5a3a8a83923294a008a6414b35a12a109d0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/0/80c4984d3560e73fcadaa6bd93010f235dc5d730" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/823c0fd5d6eec224954d94c5c5828894087563ff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f76eeb67acfad6470716bdadf09c00475f18dfa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/4/94e740553dd9828ba6fb0a8eea2211c7f8c9314d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/0/a0ea17b75af06ad30347e04b2491a7a4453cb072" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a86e5c3d5ae8b9d9960ded355abd3cf4562a70d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/afe519d8b8a7ff848259722587a7bc7c147de74d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/e/ce94e08e1343fb343f8f4406143b2116266e01e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2dc54ee1b9e5d8ad48bc05ab8e63c68a1bc7efe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/eeafc215208fa22f07a26cdcf2e4b385b5f224c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/d/fd897d98a928f643cf98725395389411711c8af2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/AttendanceTracking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/ClassManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/IntegrationExternalSystems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/MemberManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/PaymentManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/Reporting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/ScheduleManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/TrainerManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/UserPermissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/UserRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/persistance/GymDatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/persistance/GymDatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/persistance/TestConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Administrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Attendance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/GymClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Trainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/utils/LocalDateAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/steps.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/AttendanceTracking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/ClassManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/IntegrationExternalSystems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/MemberManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/PaymentManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/Reporting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/ScheduleManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/TrainerManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/UserPermissions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/UserRoles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/persistance/GymDatabaseConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/persistance/TestConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/Administrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/Attendance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/GymClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/Trainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/utils/LocalDateAdapter.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +114,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -75,6 +128,13 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -93,23 +153,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "code.cleanup.on.save": "true",
+    "last_opened_file_path": "D:/Mircea/Udemy/Projects/Repository/Projects/Gym Management System",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.TestConnection">
+}]]></component>
+  <component name="RunManager" selected="Smart Tomcat.Tomcat for Gym">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.gym.App" />
+      <module name="Gym Management System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gym.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.gym.AppStart" />
       <module name="Gym Management System" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +209,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat for Gym" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="" />
+      <option name="contextPath" value="/gym" />
+      <option name="docBase" value="D:\Mircea\Udemy\Projects\Repository\Projects\Gym Management System" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.64" />
+          <option name="path" value="C:/Program Files/Apache Software Foundation/Tomcat 9.0" />
+          <option name="version" value="9.0.64.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="Gym Management System" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.AppStart" />
+      <item itemvalue="Application.TestConnection" />
+      <item itemvalue="Smart Tomcat.Tomcat for Gym" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppStart" />
         <item itemvalue="Application.TestConnection" />
         <item itemvalue="Application.App" />
       </list>
@@ -157,7 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695226828116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactoring">
+      <created>1695275540839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695275540839</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactoring">
+      <created>1695275713855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695275713855</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +295,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gym Management System" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gym Management System" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
