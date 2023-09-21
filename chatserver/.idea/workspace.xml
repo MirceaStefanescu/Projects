@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f365408a-6850-457e-bf60-7469aab94820" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JApps Project/.idea/JApps Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/CharCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Exam System.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/FindDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/FontChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/IPFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/JApps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/LookAndFeelMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyCalculator.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyCalculator.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyCalculatro.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyFileFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Notepad.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Notepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Notepad.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/OnlineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Puzzle Game.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Puzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Source Code Generator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/SourceGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/TTT1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/calculator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/chat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ic11.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ic22.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/notepad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/paint.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/main2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/main3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/starB0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/starB10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/starB20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/picpuzzle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/picturepuzzle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/play picpuzzle.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/play tic tac toe.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/tictactoe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/wct.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/we.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/chatserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce/.idea/ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerce/02-backend/spring-boot-ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ecommerce/02-backend/spring-boot-ecommerce/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2VOJXrccSuUwylmbGLuAISNhTMS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "code.cleanup.on.save": "true",
+    "last_opened_file_path": "D:/Mircea/Udemy/Projects/Repository/Projects/chatserver",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.project.MyClient">
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.MyClient" />
+      <module name="chatserver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.MyServer" />
+      <module name="chatserver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="project.MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.MyClient" />
+      <module name="chatserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="project.MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.MyServer" />
+      <module name="chatserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="src.main.java.project.MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.project.MyServer" />
+      <module name="chatserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.project.MyClient" />
+        <item itemvalue="Application.project.MyServer" />
+        <item itemvalue="Application.src.main.java.project.MyServer" />
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f365408a-6850-457e-bf60-7469aab94820" name="Changes" comment="" />
+      <created>1694701235452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694701235452</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

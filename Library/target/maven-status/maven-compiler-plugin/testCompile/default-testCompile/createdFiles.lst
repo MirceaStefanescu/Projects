@@ -1,0 +1,3 @@
+uniteTests\db\TestDB.class
+uniteTests\repository\BookDaoTest.class
+uniteTests\command\DeleteLibrarianTest.class
