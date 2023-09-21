@@ -4,60 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48b17432-d182-402e-8de9-5bee5de68083" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mavenExecutorSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym Management System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/AttendanceTracking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/ClassManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/IntegrationExternalSystems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/MemberManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/PaymentManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/Reporting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/ScheduleManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/TrainerManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/UserPermissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/UserRoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/persistance/GymDatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/persistance/TestConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Attendance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/GymClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Trainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/utils/LocalDateAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/gym/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatserver/.idea/chatserver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatserver/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatserver/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatserver/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatserver/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatserver/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatserver/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatserver/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatserver/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ecommerce/.idea/ecommerce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecommerce/02-backend/spring-boot-ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ecommerce/02-backend/spring-boot-ecommerce/pom.xml" afterDir="false" />
+    <list default="true" id="48b17432-d182-402e-8de9-5bee5de68083" name="Changes" comment="Gym Management System">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04a56619303eaa8624f224d6562a2928fbbbd44c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/064090688eac5d432914fe6a7a1bde39c2aab6b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a2e76c305327076bc7db7637b42c6302f32f9fb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b5c047e04fffccdfb6b555134f82c41fe874874" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f5e1df13e820ffbd241e9814047807f531ac2e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/427c5ab018245ff7632f62b363c41183f1febf1b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51a1a901687af2627ff8e035eba6afac8541b228" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6adb5a3a8a83923294a008a6414b35a12a109d0a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80c4984d3560e73fcadaa6bd93010f235dc5d730" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/823c0fd5d6eec224954d94c5c5828894087563ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f76eeb67acfad6470716bdadf09c00475f18dfa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94e740553dd9828ba6fb0a8eea2211c7f8c9314d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a0ea17b75af06ad30347e04b2491a7a4453cb072" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afe519d8b8a7ff848259722587a7bc7c147de74d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce94e08e1343fb343f8f4406143b2116266e01e5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2dc54ee1b9e5d8ad48bc05ab8e63c68a1bc7efe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0ba21739934cd29452ea78d8c8d13758a26ce26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeafc215208fa22f07a26cdcf2e4b385b5f224c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd897d98a928f643cf98725395389411711c8af2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/4/04a56619303eaa8624f224d6562a2928fbbbd44c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/6/064090688eac5d432914fe6a7a1bde39c2aab6b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0a2e76c305327076bc7db7637b42c6302f32f9fb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1b5c047e04fffccdfb6b555134f82c41fe874874" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/f/2f5e1df13e820ffbd241e9814047807f531ac2e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/427c5ab018245ff7632f62b363c41183f1febf1b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/1/51a1a901687af2627ff8e035eba6afac8541b228" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6adb5a3a8a83923294a008a6414b35a12a109d0a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/0/80c4984d3560e73fcadaa6bd93010f235dc5d730" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/823c0fd5d6eec224954d94c5c5828894087563ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f76eeb67acfad6470716bdadf09c00475f18dfa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/4/94e740553dd9828ba6fb0a8eea2211c7f8c9314d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/0/a0ea17b75af06ad30347e04b2491a7a4453cb072" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/afe519d8b8a7ff848259722587a7bc7c147de74d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/e/ce94e08e1343fb343f8f4406143b2116266e01e5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2dc54ee1b9e5d8ad48bc05ab8e63c68a1bc7efe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/0/e0ba21739934cd29452ea78d8c8d13758a26ce26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/eeafc215208fa22f07a26cdcf2e4b385b5f224c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/d/fd897d98a928f643cf98725395389411711c8af2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +73,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -106,6 +98,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -157,6 +150,14 @@
       <option name="presentableId" value="Default" />
       <updated>1695200497818</updated>
     </task>
+    <task id="LOCAL-00001" summary="Gym Management System">
+      <created>1695226828116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695226828116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +170,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gym Management System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gym Management System" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
