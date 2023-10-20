@@ -1,0 +1,6 @@
+
+[
+java:S5993	"9Change the visibility of this constructor to "protected".(Åˆí’øÿÿÿÿ8°Êµ«1
+c	java:S107	"BConstructor has 14 parameters, which is greater than 7 authorized.(Åˆí’øÿÿÿÿ8°Êµ«1
+´
+java:S1172"‘Remove these unused method parameters "username", "password", "firstName", "lastName", "address", "city", "province", "postalCode", "age", "sex".(Õ´ÿ·úÿÿÿÿ8÷˜²¹«1

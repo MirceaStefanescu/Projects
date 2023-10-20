@@ -5,93 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f365408a-6850-457e-bf60-7469aab94820" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JApps Project/.idea/JApps Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/CharCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Exam System.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/FindDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/FontChooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/IPFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/JApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/LookAndFeelMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyCalculator.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyCalculator.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyCalculatro.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/MyFileFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Notepad.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Notepad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Notepad.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/OnlineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Puzzle Game.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Puzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/Source Code Generator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/SourceGetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/TTT1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/calculator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/chat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ic11.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ic22.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/ip.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/notepad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/paint.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/main2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/main3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/starB0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/starB10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/pic/starB20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/picpuzzle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/picturepuzzle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/play picpuzzle.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/play tic tac toe.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/tictactoe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/wct.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JApps Project/JApps/src/com/jApp/we.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/chatserver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ecommerce/.idea/ecommerce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecommerce/02-backend/spring-boot-ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ecommerce/02-backend/spring-boot-ecommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gym Management System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gym Management System/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,20 +53,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "code.cleanup.on.save": "true",
-    "last_opened_file_path": "D:/Mircea/Udemy/Projects/Repository/Projects/chatserver",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mircea/Udemy/Projects/Repository/Projects/chatserver&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.project.MyClient">
     <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.MyClient" />

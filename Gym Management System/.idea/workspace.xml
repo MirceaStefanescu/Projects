@@ -4,100 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48b17432-d182-402e-8de9-5bee5de68083" name="Changes" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/userController/AnonymousUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/ActorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/Aliases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/AnonymousUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/ContactPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/view/registrationView/anonymousUserForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/persistance/TestConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/persistance/dao/AnonymousUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04a56619303eaa8624f224d6562a2928fbbbd44c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/064090688eac5d432914fe6a7a1bde39c2aab6b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a2e76c305327076bc7db7637b42c6302f32f9fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b5c047e04fffccdfb6b555134f82c41fe874874" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f5e1df13e820ffbd241e9814047807f531ac2e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/427c5ab018245ff7632f62b363c41183f1febf1b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51a1a901687af2627ff8e035eba6afac8541b228" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6adb5a3a8a83923294a008a6414b35a12a109d0a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80c4984d3560e73fcadaa6bd93010f235dc5d730" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/823c0fd5d6eec224954d94c5c5828894087563ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f76eeb67acfad6470716bdadf09c00475f18dfa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94e740553dd9828ba6fb0a8eea2211c7f8c9314d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a0ea17b75af06ad30347e04b2491a7a4453cb072" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a86e5c3d5ae8b9d9960ded355abd3cf4562a70d6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afe519d8b8a7ff848259722587a7bc7c147de74d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce94e08e1343fb343f8f4406143b2116266e01e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2dc54ee1b9e5d8ad48bc05ab8e63c68a1bc7efe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeafc215208fa22f07a26cdcf2e4b385b5f224c4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd897d98a928f643cf98725395389411711c8af2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/4/04a56619303eaa8624f224d6562a2928fbbbd44c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/6/064090688eac5d432914fe6a7a1bde39c2aab6b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0a2e76c305327076bc7db7637b42c6302f32f9fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1b5c047e04fffccdfb6b555134f82c41fe874874" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/f/2f5e1df13e820ffbd241e9814047807f531ac2e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/427c5ab018245ff7632f62b363c41183f1febf1b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/1/51a1a901687af2627ff8e035eba6afac8541b228" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6adb5a3a8a83923294a008a6414b35a12a109d0a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/0/80c4984d3560e73fcadaa6bd93010f235dc5d730" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/823c0fd5d6eec224954d94c5c5828894087563ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f76eeb67acfad6470716bdadf09c00475f18dfa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/4/94e740553dd9828ba6fb0a8eea2211c7f8c9314d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/0/a0ea17b75af06ad30347e04b2491a7a4453cb072" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a86e5c3d5ae8b9d9960ded355abd3cf4562a70d6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/afe519d8b8a7ff848259722587a7bc7c147de74d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/e/ce94e08e1343fb343f8f4406143b2116266e01e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2dc54ee1b9e5d8ad48bc05ab8e63c68a1bc7efe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/eeafc215208fa22f07a26cdcf2e4b385b5f224c4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/d/fd897d98a928f643cf98725395389411711c8af2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="48b17432-d182-402e-8de9-5bee5de68083" name="Changes" comment="refactoring based on new requirements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/AttendanceTracking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/ClassManagement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/IntegrationExternalSystems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/MemberManagement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/PaymentManagement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/Reporting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/ScheduleManagement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/TrainerManagement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/UserPermissions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/UserRoles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/persistance/GymDatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/persistance/GymDatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/persistance/TestConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Administrator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Attendance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/GymClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/Trainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/utils/LocalDateAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/steps.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/AttendanceTracking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/ClassManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/IntegrationExternalSystems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/MemberManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/PaymentManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/Reporting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/ScheduleManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/TrainerManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/UserPermissions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/UserRoles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/persistance/GymDatabaseConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/persistance/TestConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/Administrator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/Attendance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/GymClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/Trainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/utils/LocalDateAdapter.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +69,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "code.cleanup.on.save": "true",
-    "last_opened_file_path": "D:/Mircea/Udemy/Projects/Repository/Projects/Gym Management System",
+    "last_opened_file_path": "D:/Mircea/Udemy/Java/ScanWebPage",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -218,9 +126,6 @@
       <option name="catalinaBase" value="" />
       <option name="contextPath" value="/gym" />
       <option name="docBase" value="D:\Mircea\Udemy\Projects\Repository\Projects\Gym Management System" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -279,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695275713855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactoring based on new requirements">
+      <created>1695307252230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695307252230</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gym Management System" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="refactoring based on new requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring based on new requirements" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

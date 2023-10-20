@@ -9,13 +9,15 @@
         <module name="spring-boot-ecommerce" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-boot-ecommerce" target="13" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-ecommerce" options="-parameters" />
     </option>
+  </component>
+  <component name="TypeScriptCompiler">
+    <option name="recompileOnChanges" value="true" />
+    <option name="typeScriptCompilerParams" value="--sourceMap true" />
+    <option name="useConfig" value="true" />
   </component>
 </project>
