@@ -1,0 +1,35 @@
+<div class="card text-center text-white bg-dark">
+  <div class="card-header mb-2">
+    <h1>Welcome to Dashboard Application</h1>
+    <p class="card-text">Here you can manage and visualize your data effectively and efficiently.</p>
+    <!-- Add buttons for different charts -->
+    <div role="group" aria-label="Chart options">
+      <a class="btn btn-primary btn-sm me-2" (click)="handleButtonClick('raw')">Raw Data</a>
+      <a class="btn btn-primary btn-sm me-2" (click)="handleButtonClick('bar-chart')">Bar Chart</a>
+      <a class="btn btn-primary btn-sm me-2" (click)="handleButtonClick('heatmap')">Heatmap</a>
+      <a class="btn btn-primary btn-sm me-2" (click)="handleButtonClick('pie-chart')">Pie Chart</a>
+      <a class="btn btn-primary btn-sm me-2" (click)="handleButtonClick('scatter-plot')">Scatter Plot</a>
+      <a class="btn btn-primary btn-sm me-2" (click)="handleButtonClick('word-cloud')">Word Cloud</a>
+    </div>
+  </div>
+  <div class="card-body text-dark bg-white vh-100 d-flex align-items-center justify-content-center flex-column"
+       *ngIf="isButtonClicked">
+    <h3 class="text-center">Please select one of the above options</h3>
+    <img
+      src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/3075302/original/Graphs1/be-your-excel-graph-chart-guru.jpg"
+      alt="Summary Chart" class="img-fluid mx-auto d-block rounded border border-dark" style="max-width: 80%;">
+  </div>
+  <div class="card-body text-dark bg-white align-items-center justify-content-center flex-column"
+       *ngIf="!isButtonClicked">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<footer class="fixed-bottom">
+  <div id="copyright" class="card-footer text-center"
+       style="width: 100%; color: white; background-color: black">©
+    2023 Dashboard
+  </div>
+</footer>
+
+

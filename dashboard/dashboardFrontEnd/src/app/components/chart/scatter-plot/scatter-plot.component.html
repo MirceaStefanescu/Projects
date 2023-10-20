@@ -1,0 +1,16 @@
+<div class="card">
+  <div class="card-title text-center">
+    <h2>Scatter Plot</h2>
+    <div class="d-flex justify-content-center m-lg-5" *ngIf="isLoading">
+      <div class="text-success">
+        <strong class="text-dark">Loading...</strong>
+        <div class="spinner-border ms-5" role="status" aria-hidden="true"></div>
+      </div>
+    </div>
+    <canvas #scatterPlotCanvas></canvas>
+
+  </div>
+  <div class="button-container mb-4">
+    <a href="/" class="btn btn-primary">Go to Main Page</a>
+  </div>
+</div>

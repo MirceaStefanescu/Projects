@@ -1,0 +1,20 @@
+<div class="d-flex align-items-center vh-100" *ngIf="isLoading">
+  <div class="d-flex justify-content-center m-lg-5 w-100">
+    <div class="text-success">
+      <strong class="text-dark">Loading...</strong>
+      <div class="spinner-border ms-5" role="status" aria-hidden="true"></div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!isLoading">
+  <select (change)="changeView($event)">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+  </select>
+
+  <canvas #chartCanvas class="mb-3"></canvas>
+</div>
+<div class="button-container mb-4">
+  <a href="/" class="btn btn-primary">Go to Main Page</a>
+</div>
