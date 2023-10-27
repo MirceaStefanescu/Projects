@@ -1,6 +1,8 @@
 package org.gym.mvc.model.user;
 
-public enum Aliases {
+import lombok.Getter;
+
+@Getter public enum Aliases {
     ONE("None"), VISITOR("Visitor"), GUEST("Guest"), USER("User"), PAID_USER("Paid User"), OPERATOR(
             "Operator"), ADMIN("Admin");
 
@@ -10,7 +12,12 @@ public enum Aliases {
         this.alias = alias;
     }
 
-    public String getAlias() {
-        return alias;
+    public static Aliases fromAlias(String alias) {
+        for (Aliases aliases : Aliases.values()) {
+            if (aliases.getAlias().equals(alias)) {
+                return aliases;
+            }
+        }
+        throw new IllegalArgumentException("Invalid alias: " + alias);
     }
 }

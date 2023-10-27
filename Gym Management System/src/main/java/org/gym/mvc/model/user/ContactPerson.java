@@ -1,6 +1,8 @@
 package org.gym.mvc.model.user;
 
-public enum ContactPerson {
+import lombok.Getter;
+
+@Getter public enum ContactPerson {
     FRANK("Frank");
 
     private final String name;
@@ -9,7 +11,12 @@ public enum ContactPerson {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
+    public static ContactPerson fromName(String name) {
+        for (ContactPerson contactPerson : ContactPerson.values()) {
+            if (contactPerson.getName().equals(name)) {
+                return contactPerson;
+            }
+        }
+        throw new IllegalArgumentException("Invalid name: " + name);
     }
 }

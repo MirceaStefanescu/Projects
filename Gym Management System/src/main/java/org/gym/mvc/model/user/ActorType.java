@@ -1,6 +1,8 @@
 package org.gym.mvc.model.user;
 
-public enum ActorType {
+import lombok.Getter;
+
+@Getter public enum ActorType {
     ACTIVE_PERSON("Active Person"), PASSIVE_EXTERNAL("Passive External");
 
     private final String value;
@@ -9,7 +11,13 @@ public enum ActorType {
         this.value = value;
     }
 
-    public String getValue() {
-        return value;
+    public static ActorType fromValue(String value) {
+        for (ActorType actorType : ActorType.values()) {
+            if (actorType.getValue().equals(value)) {
+                return actorType;
+            }
+        }
+        throw new IllegalArgumentException("Invalid value: " + value);
     }
+
 }
