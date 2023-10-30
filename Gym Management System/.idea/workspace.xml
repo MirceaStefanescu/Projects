@@ -4,47 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48b17432-d182-402e-8de9-5bee5de68083" name="Changes" comment="refactoring based on new requirements">
-      <change afterPath="$PROJECT_DIR$/.idea/Gym Management System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/userController/AnonymousUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/equipment/Equipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/facility/Facility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/membership/Membership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/membership/MembershipType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/RegisteredUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="48b17432-d182-402e-8de9-5bee5de68083" name="Changes" comment="new functionality and improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/controller/userController/AnonymousUserServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/ActorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/ActorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/Aliases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/Aliases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/AnonymousUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/AnonymousUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/ContactPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/ContactPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/model/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/mvc/view/registrationView/anonymousUserForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/mvc/view/registrationView/anonymousUserForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gym/persistance/dao/AnonymousUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gym/persistance/dao/AnonymousUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/gym/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/gym/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GymManagementSystem-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/controller/userController/AnonymousUserServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/ActorType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/ActorType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/Aliases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/Aliases.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/AnonymousUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/AnonymousUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/ContactPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/ContactPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gym/mvc/model/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/persistance/TestConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gym/persistance/dao/AnonymousUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gym/persistance/dao/AnonymousUserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.gym.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.gym.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/gym/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +179,8 @@
       <option name="presentableId" value="Default" />
       <updated>1695200497818</updated>
       <workItem from="1698387050998" duration="6144000" />
-      <workItem from="1698407181786" duration="5573000" />
+      <workItem from="1698407181786" duration="5676000" />
+      <workItem from="1698501091269" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="Gym Management System">
       <created>1695226828116</created>
@@ -246,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695307252230</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new functionality and improvements">
+      <option name="closed" value="true" />
+      <created>1698413737482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698413737482</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +239,8 @@
     <MESSAGE value="Gym Management System" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring based on new requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring based on new requirements" />
+    <MESSAGE value="new functionality and improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="new functionality and improvements" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
