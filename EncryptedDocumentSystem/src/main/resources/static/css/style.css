@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 85vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.black-text {
+    color: #0b0d16;
+}
+
+.blue-text {
+    color: #1010f9;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.container-fluid {
+    margin-bottom: 20px;
+}
+
+.col-md-6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-md-6 div {
+    margin-bottom: 10px;
+}

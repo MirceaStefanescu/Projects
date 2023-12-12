@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SignUp Page</title>
+        <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/style.css"/>
+    </head>
+    <body class="text-center">
+        <div class="container-fluid">
+            <!-- Center-top title -->
+            <div class="row justify-content-center">
+                <div class="col-md-6 mt-4">
+                    <h2>Please enter your credentials for signing up!</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- First container on the left -->
+                <div class="col">
+                    <form action="#" th:action="@{/signUp}" th:object="${user}" method="post">
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label blue-text">UserName</label>
+                            <div class="col-sm-10">
+                                <input type="text" th:field="*{username}" placeholder="Username" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label blue-text">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" th:field="*{email}" placeholder="Email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label blue-text">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password"
+                                       th:field="*{password}"
+                                       placeholder="Password"
+                                       class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label blue-text">Role</label>
+                            <div class="col-sm-10">
+                                <select id="role" th:field="*{role}" class="form-control">
+                                    <option th:each="role:${T(com.mycompany.documentmanagement.model.Role).values()}"
+                                            th:value="${role}"
+                                            th:text="${role}">Role
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label blue-text">Permission</label>
+                            <div class="col-sm-10">
+                                <select id="permissions" th:field="*{permissions}" class="form-control" multiple>
+                                    <option th:each="permission:${T(com.mycompany.documentmanagement.model.Permission).values()}"
+                                            th:value="${permission}"
+                                            th:text="${permission}">Permission
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-primary">SignUp</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- Second container on the right -->
+                <div class="col">
+                    <h4>Selected Permissions:</h4>
+                    <ul id="selected-permissions" class="list-styled"></ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a th:href="@{/home}" class="btn btn-primary">Back to homepage</a>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.min.js"></script>
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css">
+        <script>
+            $(document).ready(function () {
+                $('#permissions').multiselect({
+                    includeSelectAllOption: true,
+                    enableFiltering: true,
+                    buttonWidth: '100%',
+                    dropRight: true,
+                    onChange: function (option, checked) {
+                        // Get selected options.
+                        var selectedOptions = $('#permissions').val();
+                        // Update the list.
+                        var list = $('#selected-permissions');
+                        list.empty();
+                        $.each(selectedOptions, function (index, value) {
+                            list.append('<li>' + value + '<a href="#" class="remove-permission" data-value="' + value + '">Remove</a></li>');
+                        });
+                    }
+                });
+                // Remove permission.
+                $(document).on('click', '.remove-permission', function (e) {
+                    e.preventDefault();
+                    // Get the value.
+                    var value = $(this).data('value');
+                    // Remove the option from the select.
+                    $('#permissions').multiselect('deselect', value);
+                    // Remove the list item.
+                    $(this).parent().remove();
+                });
+            });
+        </script>
+    </body>
+</html>
